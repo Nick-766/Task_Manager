@@ -1,0 +1,57 @@
+.task-card {
+  background: #fff;
+  border-radius: 3px;
+  padding: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.task-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.task-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #0079bf;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.task-action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 3px;
+  color: #302c2c;
+  transition: color 0.2s;
+}
+
+.task-action-btn:hover {
+  color: #333;
+}
+
+.task-description {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}

@@ -1,0 +1,51 @@
+.task-column {
+  background: #ebecf0;
+  border-radius: 3px;
+  padding: 10px;
+  min-height: 380px;
+}
+
+.task-column.todo {
+  background: #e3f2fd;
+}
+
+.task-column.inprogress {
+  background: #e5e0ae;
+}
+
+.task-column.done {
+  background: #de7d78;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.task-column.todo .column-header {
+  color: #1565c0;
+}
+
+.task-column.inprogress .column-header {
+  color: #0d47a1;
+}
+
+.task-column.done .column-header {
+  color: #01579b;
+}
+
+.column-icon {
+  font-size: 15px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
